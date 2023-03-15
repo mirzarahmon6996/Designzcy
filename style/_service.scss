@@ -63,7 +63,9 @@
         max-width: 578px;
         margin: 0 auto;
     }
-
+    .service{
+        margin-top: 40px;
+    }
     .service__block {
         display: flex;
         flex-direction: column;
@@ -151,13 +153,15 @@
     justify-content: center;
     margin: 27px 100px;
 }
+
 @media only screen and (max-width:578px) {
     .container {
         width: 90%;
         max-width: 578px;
         margin: 0 auto;
     }
-    .offering__block{
+
+    .offering__block {
         display: flex;
         flex-direction: column;
     }
